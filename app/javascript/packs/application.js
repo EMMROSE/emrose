@@ -24,11 +24,17 @@ require("channels")
 
 // External imports
 import "bootstrap";
-
+import { scrolledNav } from '../components/navbar';
+import { randomIn } from '../components/neon';
+import { buttonEffect } from '../components/button';
+//import { loadDynamicBannerText } from '../components/banner';
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+  scrolledNav();
+  randomIn();
+  buttonEffect();
 });
