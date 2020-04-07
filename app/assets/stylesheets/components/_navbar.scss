@@ -1,34 +1,36 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: transparent;
+  justify-content: center;
+  background: rgb(102, 117, 114); //$gray
   height: 72px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-toggler-icon {
+  padding: 5px;
 }
 
+
 .nav-item {
-  opacity: 0.3;
+  opacity: 0.8;
+  cursor: pointer;
   text-align: center;
-  width: 100px;
-  height: 35px;
-  font: 24px;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  margin-right: 4px;
+  padding: 12px 20px;
+  font: 16px;
+  color: black;
+  &:focus { color: black;}
   &:hover {
     opacity: 1;
-    color: white;
-    background-color: $red;
+    color: $black;
+    border: solid $white;
+    text-decoration: none;
   }
   &.active {
-    background-color: $blue;
     opacity: 1;
-    color: transparent;
+    background-color: $blue;
   }
 }

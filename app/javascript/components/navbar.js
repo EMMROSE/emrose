@@ -1,9 +1,6 @@
 const scrolledNav = () => {
   const navbar = document.querySelector('#js-scroll-navbar');
-  const balance = document.querySelector('#js-navbar-balance');
   const buttons = document.querySelectorAll('#js-btn-white');
-  const navbarSearch = document.querySelector('#js-navbar-search');
-  const bannerSearch = document.querySelector('#js-banner-search');
   const navbarBrand = document.querySelector('#js-navbar-brand');
   if (navbar) {
     window.addEventListener('scroll', () => {

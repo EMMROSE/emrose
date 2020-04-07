@@ -4,4 +4,9 @@
 @import "banner";
 @import "button";
 @import "navbar";
+@import "parralax";
 
+
+.content-wrapper {
+  min-height: calc(100vh - 70px - 80px);
+}
