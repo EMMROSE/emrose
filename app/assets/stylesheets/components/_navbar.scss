@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: center;
-  background: rgb(102, 117, 114); //$gray
+  background: rgba(102,117,114,0.8); //$gray
   height: 72px;
   display: flex;
   align-items: center;
@@ -22,15 +22,16 @@
   padding: 12px 20px;
   font: 16px;
   color: black;
-  &:focus { color: black;}
-  &:hover {
-    opacity: 1;
-    color: $black;
-    border: solid $white;
-    text-decoration: none;
-  }
+  // &:hover {
+  //   opacity: 1;
+  //   color: $black;
+  //   border: solid $white;
+  //   border-radius: 16px;
+  //   text-decoration: none;
+  // }
   &.active {
     opacity: 1;
     background-color: $blue;
+    border-radius: 16px;
   }
 }
