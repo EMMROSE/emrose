@@ -1,21 +1,15 @@
-const buttonEffect = () => {
-
-  const formContainer = document.querySelector('.form-container');
-
-  if (formContainer) {
-    const activities = document.querySelectorAll('.form-container .activity-choices .activity-choice');
-
-    // Add click effect on activities radio-button
-    activities.forEach((activity) => {
-      activity.addEventListener('click', (event) => {
-        let previousActivity = document.querySelector('.activity-choice.active')
-          if (previousActivity !== null) {
-            previousActivity.classList.remove('active');
-        }
-        event.currentTarget.classList.add('active');
+const activeCheck = () => {
+  const activate = document.querySelectorAll('.nav-item');
+  let i = 0;
+  activate.forEach((element) => {
+  element.addEventListener('click', (event) => {
+    let previousActivity = document.querySelector('.nav-item.active')
+      if (previousActivity !== null) {
+        previousActivity.classList.remove('active');
+      }
+      element.classList.add('active');
       });
-    });
-
+  });
 };
 
-export { buttonEffect }
+export { activeCheck };
