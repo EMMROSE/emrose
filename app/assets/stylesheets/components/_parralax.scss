@@ -42,11 +42,11 @@ html {
   section {
     background: #e5e5e5;
     width: calc(50% + 1px);
-    height: 80vh;
+    height: 100vh;
     margin: 0 0 10vh auto;
     position: sticky;
     top: 0;
-    // overflow: hidden;
+    overflow: hidden;
     padding: 5vmin;
     box-shadow: -4px -4px 8px rgba(0,0,0,.4);
       }
@@ -104,7 +104,7 @@ html {
   //   left: 45%;
   // }
   figure img {
-    max-height: 80vh;
+    max-height: 100vh;
     width: auto;
     object-fit: cover;
     object-position: center;

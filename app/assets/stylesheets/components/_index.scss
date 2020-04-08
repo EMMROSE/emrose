@@ -10,3 +10,7 @@
 .content-wrapper {
   min-height: calc(100vh - 70px - 80px);
 }
+
+html {
+  scroll-behavior: smooth;
+}
