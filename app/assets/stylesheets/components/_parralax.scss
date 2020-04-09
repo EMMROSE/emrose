@@ -12,7 +12,7 @@ html {
   }
   figure {
     background: #eee;
-    width: calc( 50% + 1px);
+    width: calc( 65% + 1px);
     height: 100vh;
     margin: 0 auto 10vh 0;
     position: sticky;
@@ -27,7 +27,7 @@ html {
   }
   section {
     background: #e5e5e5;
-    width: calc(50% + 1px);
+    width: calc(35% + 1px);
     height: 100vh;
     margin: 0 0 10vh auto;
     position: sticky;
@@ -36,11 +36,14 @@ html {
     padding: 5vmin;
     box-shadow: -4px -4px 8px rgba(0,0,0,.4);
       }
-  figure:nth-of-type(1),
+  figure:nth-of-type(1) {
+    margin: 0 0 10vh 0;
+    width: 65%;
+  }
   section:nth-of-type(1) {
     margin: 0 0 10vh 0;
-    width: 50%;
-      }
+    width: 35%;
+  }
   figure:nth-of-type(2n) {
     margin: 0 0 10vh auto;
     box-shadow: -4px -4px 8px rgba(0,0,0,.4);
@@ -56,7 +59,7 @@ html {
 
 figure img {
     min-width: 100%;
-    min-height: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
   }
