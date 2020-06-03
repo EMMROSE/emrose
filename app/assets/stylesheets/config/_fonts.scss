@@ -1,12 +1,11 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
-// Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: 'Fredericka the Great', cursive;
-//font-family: 'Special Elite', cursive;
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Special+Elite&display=swap');
+// Define fonts for body and headers
+$body-font: 'Oswald', sans-serif;
+$headers-font: 'Special Elite', cursive;
+//font-family: 'Special Elite', cursive;
+//font-family: 'Oswald', sans-serif;
 // $body-font: 'Range Mono';
 // $headers-font: 'Veneer Two';
 
