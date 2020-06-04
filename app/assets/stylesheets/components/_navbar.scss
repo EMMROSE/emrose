@@ -16,9 +16,11 @@
       font-weight: bold;
       font-size: 3rem;
       margin-right: 16px;
+      transition: border 0.7s;
     &:hover {
       text-decoration: none;
-      border: solid 1px $blue-cadet;
+      border: solid 3px $blue-cadet;
+      border-radius: 6px;
     }
     img {
       width: 140px;

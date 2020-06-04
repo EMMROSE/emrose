@@ -1,0 +1,48 @@
+.form-container {
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(200,200,200,0.4),rgba(155,155,155,0.3)), url("../assets/wall2.jpg");
+  box-shadow: 0 0 25px rgba(75,75,75,0.5);
+  margin-top: 5vh;
+  padding: 16px;
+  color: $blue-cadet;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.form-control {
+  background-color: rgba(200,200,200,0.6);
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Special Elite";
+  color: $blue-cadet;
+}
+.form-top {
+  font-size: 16px;
+  font-family: "Special Elite";
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .form-container {
+    width: 100%;
+    padding: 32px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .form-container {
+    width: 100%;
+    padding: 32px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .form-container {
+    width: 95%;
+    padding: 32px;
+  }
+}

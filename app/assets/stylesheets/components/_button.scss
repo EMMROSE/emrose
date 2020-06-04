@@ -1,30 +1,13 @@
-/* Top and Bottom borders go out */
-div.topBotomBordersOut span:before, div.topBotomBordersOut span:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: #FFF;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-div.topBotomBordersOut span:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut span:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut span:hover:before, div.topBotomBordersOut span:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
+.btn {
+  padding: 8px 12px;
+  background: red;
+  color: white;
+  font-size: 24px;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-left: 40%;
+  a {
+    text-decoration: none;
+    &:hover {border-radius: solid 2px white;}
+  }
 }
