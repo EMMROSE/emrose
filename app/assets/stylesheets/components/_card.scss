@@ -1,0 +1,90 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100%;
+  padding: 25px;
+}
+.service-card {
+    height: 30vh;
+    width: 30vh;
+    border: solid 2px black;
+    padding: 8px;
+    border-radius: 6px;
+    h3 {text-align: center; margin-top: 40%;}
+    transform: scale(0.95);
+    box-shadow: 8px 8px 5px rgba(198,102,70,0.8);
+    transition: box-shadow 0.5s, transform 0.5s;
+    &:hover {
+      transform: scale(1);
+      box-shadow: 12px 12px 3px rgba(198,102,70,1);
+    }
+}
+
+.portfolios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  padding: 25px;
+  grid-gap: 24px;
+  width: 100%;
+}
+.portfolio-card {
+    height: 50vh;
+    width: 100%; //from 1fr column
+    border: solid 2px black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h3 {text-align: center; margin-top: 40%;}
+    transform: scale(0.95);
+    box-shadow: 8px 8px 5px rgba(198,102,70,0.8);
+    transition: box-shadow 0.5s, transform 0.5s;
+    &:hover {
+      transform: scale(1);
+      box-shadow: 12px 12px 3px rgba(198,102,70,1);
+    }
+}
+
+#gom {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/gom.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#bdtroc {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/bdtroc.png');
+  background-size: cover;
+  background-position: center;
+}
+#atelier {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/atelier.png');
+  background-size: cover;
+  background-position: center;
+}
+#samedi {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/samedi.png');
+  background-size: cover;
+  background-position: center;
+}
+#cabinet {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/cabinet.png');
+  background-size: cover;
+  background-position: center;
+}
+#graine {
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/graine.png');
+  background-size: cover;
+  background-position: center;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50vh;
+  width: 100%;
+  padding: 75px;
+}
