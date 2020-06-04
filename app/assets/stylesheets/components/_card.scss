@@ -53,38 +53,52 @@
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/gom.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/gom.png');}
 }
 
 #bdtroc {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/bdtroc.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/bdtroc.png');}
 }
 #atelier {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/atelier.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/atelier.png');}
 }
 #samedi {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/samedi.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/samedi.png');}
 }
 #cabinet {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/cabinet.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/cabinet.png');}
 }
 #graine {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/graine.png');
   background-size: cover;
   background-position: center;
+  &:hover {background-image: url('../assets/graine.png');}
 }
 .skills {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 50vh;
+  height: 80vh;
   width: 100%;
   padding: 75px;
+}
+
+.skill {
+  width: 15%;
+  height: 80px;
+  border: solid 1px black;
+  img {height: 80% ; width: 100%;}
+  h2 {text-align: center;}
 }

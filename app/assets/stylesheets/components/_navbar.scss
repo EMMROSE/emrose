@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  background: transparent;
+  background: $light-gray;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,7 +16,10 @@
       font-weight: bold;
       font-size: 3rem;
       margin-right: 16px;
-    &:hover {text-decoration: none;}
+    &:hover {
+      text-decoration: none;
+      border: solid 1px $blue-cadet;
+    }
     img {
       width: 140px;
       margin-top: 8px;
