@@ -31,22 +31,14 @@
 }
 
 
-// .navbar-lewagon .navbar-brand
-// a {
-//   img {
-//     width: 140px;
-//     margin-top: 8px;
-//   }
-// }
-
 // Smallest device
 @media (min-width: 100px) and (max-width: 375px) {
   .navbar-lewagon {
     height: 17vh;
     .nav-items {
-      width: 100%;
+      width: 80%;
       a {
-        font-size: 12px;
+        font-size: 2rem;
         margin-right: 6px;
         img {
           width: 70px;
@@ -59,11 +51,11 @@
 // Medium device
 @media (min-width: 568px) and (max-width: 812px) {
   .navbar-lewagon {
-    height: 30vh;
+    height: 15vh;
     .nav-items {
-      width: 100%;
+      width: 80%;
       a {
-        font-size: 18px;
+        font-size: 2rem;
         margin-right: 35px;
         img {
           width: 80px;

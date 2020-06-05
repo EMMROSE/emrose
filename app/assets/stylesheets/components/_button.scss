@@ -11,3 +11,11 @@
     &:hover {border-radius: solid 2px white;}
   }
 }
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 375px) {
+  .btn {
+    margin-left: 30%;
+    padding: 6px 10px;
+  }
+}

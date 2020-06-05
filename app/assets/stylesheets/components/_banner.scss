@@ -18,6 +18,7 @@
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255,255,255,0.4)), url("../assets/wall2.jpg");
   .container-neon {
+    width: 36%;
     max-width: 520px;
     margin-top: 15rem;
   }
@@ -87,4 +88,52 @@
         text-shadow: none;
         box-shadow: none;
     }
+}
+
+// Smallest++ device
+@media (min-width: 100px) and (max-width: 320px) {
+  .banner {
+    .container-neon {
+      width: 80%;
+    }
+  }
+  .banner h1 {
+    font-size: 50px;
+    line-height: 1.8;
+  }
+}
+// Smallest device
+@media (min-width: 321px) and (max-width: 375px) {
+  .banner {
+    .container-neon {
+      width: 80%;
+    }
+  }
+  .banner h1 {
+    line-height: 1.8;
+  }
+}
+// Medium device
+@media (min-width: 550px) and (max-width: 812px) {
+  .banner {
+    // position: relative;
+    height: 100vh;
+    .container-neon {
+      width: 49%;
+      max-width: 520px;
+      margin-top: 10rem;
+    }
+  }
+  .banner h1 {
+    font-size: 50px;
+    line-height: 1.8;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .banner h1 {
+    font-size: 75px;
+    padding: 3rem 3.5rem 3rem 3.5rem;
+    line-height: 1.7;
+  }
 }
