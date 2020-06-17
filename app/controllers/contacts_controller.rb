@@ -10,6 +10,8 @@ class ContactsController < ApplicationController
     if @contact.save
       ContactMailer.general_message(@contact).deliver_now
       redirect_to root_path
+    else
+      raise
     end
   end
 
