@@ -25,7 +25,7 @@ Rails.application.configure do
     }
   else
     config.action_controller.perform_caching = false
-
+    config.action_mailer.delivery_method = :smtp
     config.cache_store = :null_store
   end
 

@@ -10,10 +10,6 @@ class ContactsController < ApplicationController
     if @contact.save
       ContactMailer.general_message(@contact).deliver_now
       redirect_to root_path
-      flash[:notice] = "Votre demande a bien été transmise"
-    else
-      render :new
-      flash[:alert] = "Veuillez compléter le formulaire s'il vous plaît."
     end
   end
 

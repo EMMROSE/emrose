@@ -78,10 +78,10 @@
   &:hover {background-image: url('../assets/samedi.png');}
 }
 #cabinet {
-  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/cabinet.png');
+  background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/cabinet.jpg');
   background-size: cover;
   background-position: center;
-  &:hover {background-image: url('../assets/cabinet.png');}
+  &:hover {background-image: url('../assets/cabinet.jpg');}
 }
 #graine {
   background-image: linear-gradient(rgba(125,125,125,0.2),rgba(125,125,125,0.4)), url('../assets/graine.png');
@@ -158,7 +158,7 @@
     background-image: url('../assets/samedi.png');
   }
   #cabinet {
-    background-image: url('../assets/cabinet.png');
+    background-image: url('../assets/cabinet.jpg');
   }
   #graine {
     background-image: url('../assets/graine.png');
