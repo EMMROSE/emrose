@@ -13,7 +13,7 @@
   .profil {
     position: absolute;
     z-index: 10;
-    top: -3vh; left: 70%;
+    bottom: 0px; left: 70%;
     overflow: hidden;
     width: 260px;
   }
@@ -69,7 +69,7 @@
     .profil {
       position: absolute;
       z-index: 10;
-      top: 14vh; left: 65%;
+      bottom: 0px; left: 65%;
       overflow: hidden;
       width: 200px;
     }
@@ -84,7 +84,7 @@
     .profil {
       position: absolute;
       z-index: 10;
-      top: 15vh; left: 65%;
+      bottom: 0px; left: 65%;
       overflow: hidden;
       width: 200px;
     }
@@ -100,7 +100,7 @@
     .profil {
       position: absolute;
       z-index: 10;
-      top: 16vh; left: 70%;
+      bottom: 0px; left: 70%;
       overflow: hidden;
       width: 200px;
     }
@@ -111,10 +111,11 @@
   .form-container {
     width: 95%;
     padding: 32px;
+    height: 120vh;
     .profil {
       position: absolute;
       z-index: 10;
-      top: 15vh; left: 70%;
+      bottom: 0px; left: 70%;
       overflow: hidden;
       width: 200px;
     }
