@@ -32,14 +32,14 @@
 
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 375px) {
+@media (min-width: 100px) and (max-width: 380px) {
   .navbar-lewagon {
     height: 17vh;
     .nav-items {
-      width: 80%;
+      width: 95%;
       a {
-        font-size: 2rem;
-        margin-right: 6px;
+        font-size: 1.6rem;
+        margin-right: 0px;
         img {
           width: 70px;
         }

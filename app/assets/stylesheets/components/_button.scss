@@ -1,11 +1,11 @@
 .btn {
-  padding: 8px 12px;
+  padding: 8px 12px 10px 12px;
   background: red;
   color: white;
   font-size: 24px;
   border-radius: 6px;
   margin-top: 24px;
-  margin-left: 40%;
+  margin-left: 62%;
   a {
     text-decoration: none;
     &:hover {border-radius: solid 2px white;}
@@ -16,6 +16,29 @@
 @media (min-width: 100px) and (max-width: 375px) {
   .btn {
     margin-left: 30%;
+    padding: 6px 10px;
+  }
+}
+
+// IPHONE 5 HORIZONTAL
+@media (width: 568px) {
+  .btn {
+    margin-left: 51%;
+    padding: 6px 10px;
+  }
+}
+// Medium device
+@media (min-width: 569px) and (max-width: 667px) {
+  .btn {
+    margin-left: 55%;
+    padding: 6px 10px;
+  }
+}
+
+// IPHONE X
+@media (width: 812px) {
+  .btn {
+    margin-left: 57%;
     padding: 6px 10px;
   }
 }
