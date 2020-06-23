@@ -89,6 +89,17 @@
   background-position: center;
   &:hover {background-image: url('../assets/graine.png');}
 }
+
+#project {
+   font-size: 27px;
+   text-align: center;
+   color: rgba(225,61,64,1.0);
+   font-weight: bold;
+   position: absolute;
+   right: 35%;
+   transform: rotate(30deg);
+ }
+
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -232,6 +243,9 @@
   #graine {
     background-image: url('../assets/graine.png');
   }
+  #project {
+    right: 25%;
+  }
   .skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -301,6 +315,9 @@
   }
   #graine {
     background-image: url('../assets/graine.png');
+  }
+  #project {
+    right: 40%;
   }
   .skills {
     display: grid;
