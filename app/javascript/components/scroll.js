@@ -44,10 +44,10 @@ const scrolledFx = () => {
     window.addEventListener('scroll', () => {
       if (window.scrollY >= 3200) {
         const z = scrollY - 3300
-        mockupbis.style.setProperty('top', `${z*0.2}px`)
+        mockupbis.style.setProperty('top', `${z*0.1}px`)
       } else if (window.scrollY >= 3250){
         const w = scrollY - 3300
-        mockupbis.style.setProperty('top', `${z*0.1}px`)
+        mockupbis.style.setProperty('top', `${z*0.05}px`)
       }
     });
   }

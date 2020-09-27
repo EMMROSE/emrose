@@ -1,28 +1,31 @@
 .services {
+  margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-around;
   height: 30vh;
-  width: 100%;
+  width: 80%;
   padding: 25px;
 }
 .service-card {
-    height: 30vh;
-    width: 30vh;
-    border: solid 2px black;
+    height: 33vh;
+    width: 33vh;
+    // border: solid 2px black;
     padding: 8px;
     border-radius: 6px;
     display: flex;
+    color: $white;
+    font-weight: bold;
     justify-content: center;
     align-items: center;
-    background-color: #eec170;
+    background-color: #3359BD;
     h3 {text-align: center;}
     transform: scale(0.95);
-    box-shadow: 5px 8px 5px rgba(198,102,70,0.8);
+    box-shadow: 5px 8px 5px rgba(51,89,189,0.3);
     transition: box-shadow 0.5s, transform 0.5s;
     &:hover {
       transform: scale(1);
-      box-shadow: 5px 12px 3px rgba(198,102,70,1);
+      box-shadow: 5px 12px 3px rgba(51,89,189,0.7);
     }
 }
 
