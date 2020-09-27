@@ -1,0 +1,110 @@
+.blueform {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 8px;
+  margin-bottom: 20vh;
+  z-index: 2;
+  position: relative;
+  .greyform {
+    position: absolute;
+    // top: 8vh;
+    // left: -10vh;
+    min-top: 6vh;
+    width: 33%;
+    height: 50%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px rgba(40, 77, 66, 0.5);
+  }
+}
+
+// .margin-form {
+//   left: -10vh;
+// }
+
+.margin-form2 {
+  top: 33%;
+  left: -20vh;
+  transition: all 1.5s ease-out;
+}
+.margin-form3 {
+  top: 0%;
+  right: -20vh;
+  transition: all 1.5s ease-out;
+}
+
+.yellowform {
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 8px;
+  margin-bottom: 20vh;
+  z-index: 2;
+  position: relative;
+  .greyform {
+    position: absolute;
+    // top: 8vh;
+    // left: -10vh;
+    width: 33%;
+    height: 50%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px rgba(40, 77, 66, 0.5);
+  }
+}
+
+.redform {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 8px;
+  margin-bottom: 20vh;
+  z-index: 2;
+  position: relative;
+  .greyform {
+    position: absolute;
+    top: 8vh;
+    transition: all 2.0s ease-out;
+    left: -4vh;
+    width: 33%;
+    height: 50%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px rgba(40, 77, 66, 0.5);
+  }
+}
+
+.margin-form4 {
+  transform: translateX(-20vh) translateY(10vh);
+  transition: all 1.5s ease-out;
+}
+
+.mockup {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: -5vh;
+  left: -5vh;
+  img {
+    width:  100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
