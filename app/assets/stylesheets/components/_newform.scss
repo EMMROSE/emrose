@@ -5,7 +5,7 @@
   width: 75%;
   height: 80vh;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 2px;
   margin-bottom: 20vh;
   z-index: 2;
   position: relative;
@@ -16,9 +16,15 @@
     left: -4vh;
     width: 33%;
     height: 50%;
-    background-color: #706C61;
+    padding: 16px;
+    background-color: $blue-cadet;
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -37,7 +43,7 @@
   width: 75%;
   height: 80vh;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 2px;
   margin-bottom: 20vh;
   z-index: 2;
   position: relative;
@@ -48,9 +54,15 @@
     transition: all 2.0s ease-out;
     width: 33%;
     height: 50%;
-    background-color: #706C61;
+    padding: 16px;
+    background-color: $blue-cadet;
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -61,7 +73,7 @@
   width: 75%;
   height: 80vh;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 2px;
   margin-bottom: 20vh;
   z-index: 2;
   position: relative;
@@ -72,12 +84,47 @@
     left: -4vh;
     width: 33%;
     height: 50%;
-    background-color: #706C61;
+    padding: 16px;
+    background-color: $blue-cadet;
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
   }
 }
 
+.brownform {
+  background: #FDC830;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 75%;
+  height: 80vh;
+  margin: auto;
+  border-radius: 2px;
+  margin-bottom: 20vh;
+  z-index: 2;
+  position: relative;
+  .greyform {
+    position: absolute;
+    top: 15vh;
+    right: 5vh;
+    transition: all 2.0s ease-out;
+    width: 33%;
+    height: 60%;
+    padding: 16px;
+    background-color: $blue-cadet;
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+}
 .mockup {
   width: 90%;
   height: auto;
@@ -125,6 +172,9 @@
     height: 25vh;
   }
   .redform {
+    height: 25vh;
+  }
+  .brownform {
     height: 25vh;
   }
   .margin-form1 {
