@@ -1,53 +1,74 @@
 const scrolledFx = () => {
+
+  if (window.matchMedia("(max-width: 400px)").matches) {
+  /* the view port is at max 400 pixels wide */
+    const form = document.querySelector('#js-scroll');
+    if (form) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 600) {
+          form.classList.add('margin-form1');
+          // form.style.setProperty('top', `${x*0.5}px`)
+          // form.style.setProperty('left', `-${x}px`)
+       } else {
+          form.classList.remove('margin-form1');
+        }
+      });
+    }
+    const mockup = document.querySelector('#js-scroll-mockup');
+    if (mockup) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 600) {
+          mockup.classList.add('mockupmove1');
+        } else {
+          mockup.classList.remove('mockupmove1');
+        }
+      });
+    }
+} else if (window.matchMedia("(min-width: 900px)").matches) {
+  /* the view port is less than 900 pixels wide */
   const form = document.querySelector('#js-scroll');
-  if (form) {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= 3000) {
-        const x = scrollY - 3000
-        form.style.setProperty('top', `${x*0.5}px`)
-        form.style.setProperty('left', `-${x}px`)
-      } else if (window.scrollY >= 3200) {
-        form.style.setProperty('top', `33%`)
-        form.style.setProperty('left', `-20vh`)
-      } else {
-        form.classList.add('margin-form2');
-      }
-    });
-  }
-  const mockup = document.querySelector('#js-scroll-mockup');
-  if (mockup) {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= 3000) {
-        const a = scrollY - 3000
-        mockup.style.setProperty('top', `${a*0.2}px`)
-        mockup.style.setProperty('left', `${a*0.4}px`)
-      } else if (window.scrollY >= 3250){
-        const b = scrollY - 3300
-        mockup.style.setProperty('top', `${b*0.1}px`)
-      }
-    });
-  }
+    if (form) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 330) {
+          // const x = scrollY - 330
+          form.classList.add('margin-form1');
+          // form.style.setProperty('top', `${x*0.5}px`)
+          // form.style.setProperty('left', `-${x}px`)
+       } else {
+          form.classList.remove('margin-form1');
+        }
+      });
+    }
+    const mockup = document.querySelector('#js-scroll-mockup');
+    if (mockup) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 330) {
+          mockup.classList.add('mockupmove1');
+        } else {
+          mockup.classList.remove('mockupmove1');
+        }
+      });
+    }
+}
+
   const formbis = document.querySelector('#js-scroll-bis');
   if (formbis) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= 3200) {
+      if (window.scrollY >= 975) {
         const y = scrollY - 3300
-        formbis.style.setProperty('top', `33%`)
-        formbis.style.setProperty('right', `-${y*0.33}px`)
+        formbis.classList.add('margin-form2');
       } else {
-        form.classList.add('margin-form3');
+        formbis.classList.remove('margin-form2');
       }
     });
   }
   const mockupbis = document.querySelector('#js-scroll-mockupbis');
   if (mockupbis) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= 3200) {
-        const z = scrollY - 3300
-        mockupbis.style.setProperty('top', `${z*0.1}px`)
-      } else if (window.scrollY >= 3250){
-        const w = scrollY - 3300
-        mockupbis.style.setProperty('top', `${z*0.05}px`)
+      if (window.scrollY >= 975) {
+        mockupbis.classList.add('mockupmove2');
+      } else {
+        mockupbis.classList.remove('mockupmove2');
       }
     });
   }
@@ -77,3 +98,6 @@ const scrolledFx = () => {
 }
 
 export { scrolledFx }
+
+
+

@@ -11,9 +11,9 @@
   position: relative;
   .greyform {
     position: absolute;
-    // top: 8vh;
-    // left: -10vh;
-    min-top: 6vh;
+    top: 8vh;
+    transition: all 2.0s ease-out;
+    left: -4vh;
     width: 33%;
     height: 50%;
     background: #bdc3c7;  /* fallback for old browsers */
@@ -24,20 +24,15 @@
   }
 }
 
-// .margin-form {
-//   left: -10vh;
-// }
-
-.margin-form2 {
-  top: 33%;
-  left: -20vh;
-  transition: all 1.0s ease-out;
-}
-.margin-form3 {
-  top: 0%;
-  right: -20vh;
+.margin-form1 {
+  transform: translateX(-15vh) translateY(10vh);
   transition: all 1.5s ease-out;
 }
+.margin-form2 {
+  transform: translateX(15vh) translateY(22vh);
+  transition: all 1.5s ease-out;
+}
+
 
 .yellowform {
   background: #FDC830;  /* fallback for old browsers */
@@ -52,8 +47,9 @@
   position: relative;
   .greyform {
     position: absolute;
-    // top: 8vh;
-    // left: -10vh;
+    top: 15vh;
+    right: 5vh;
+    transition: all 2.0s ease-out;
     width: 33%;
     height: 50%;
     background: #1f4037;  /* fallback for old browsers */
@@ -91,7 +87,7 @@
 }
 
 .margin-form4 {
-  transform: translateX(-20vh) translateY(10vh);
+  transform: translateX(-15vh) translateY(8vh);
   transition: all 1.5s ease-out;
 }
 
@@ -106,5 +102,44 @@
     width:  100%;
     height: 100%;
     border-radius: 8px;
+  }
+  transition: all 1.5s ease-out;
+}
+.mockup2 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  top: 5vh;
+  left: 5vh;
+  position: absolute;
+  img {
+    width:  100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  transition: all 1.5s ease-out;
+}
+
+.mockupmove1 {
+  transform: translateX(30vh) translateY(8vh);
+  transition: all 1.5s ease-out;
+}
+
+.mockupmove2 {
+  transform: translateX(-10vh) translateY(-10vh);
+  transition: all 1.5s ease-out;
+}
+
+@media (min-width: 100px) and (max-width: 400px) {
+   .blueform {
+    height: 25vh;
+   }
+   .margin-form1 {
+    transform: translateX(0vh) translateY(10vh);
+    transition: all 1.5s ease-out;
+  }
+  .mockupmove1 {
+    transform: translateX(10vh) translateY(8vh);
+    transition: all 1.5s ease-out;
   }
 }
