@@ -98,17 +98,17 @@ const scrolledFx = () => {
     const formter = document.querySelector('#js-scroll-ter');
     if (formter) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 1400) {
-          formter.classList.add('margin-form4');
+        if (window.scrollY >= 1100) {
+          formter.classList.add('margin-form1');
         } else {
-          formter.classList.remove('margin-form4');
+          formter.classList.remove('margin-form1');
         }
       });
     }
     const mockupter = document.querySelector('#js-scroll-mockupter');
     if (mockupter) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 1400) {
+        if (window.scrollY >= 1100) {
           mockupter.classList.add('mockupmove1');
         } else {
           mockupter.classList.remove('mockupmove1');
@@ -120,9 +120,9 @@ const scrolledFx = () => {
     if (formter) {
       window.addEventListener('scroll', () => {
         if (window.scrollY >= 1650) {
-          formter.classList.add('margin-form4');
+          formter.classList.add('margin-form1');
         } else {
-          formter.classList.remove('margin-form4');
+          formter.classList.remove('margin-form1');
         }
       });
     }

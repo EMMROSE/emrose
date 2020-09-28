@@ -78,11 +78,6 @@
   }
 }
 
-.margin-form4 {
-  transform: translateX(-15vh) translateY(8vh);
-  transition: all 1.5s ease-out;
-}
-
 .mockup {
   width: 90%;
   height: auto;
@@ -123,12 +118,22 @@
 }
 
 @media (min-width: 100px) and (max-width: 400px) {
-   .blueform {
+  .blueform {
     height: 25vh;
-   }
-   .margin-form1 {
+  }
+  .yellowform {
+    height: 25vh;
+  }
+  .redform {
+    height: 25vh;
+  }
+  .margin-form1 {
     transform: translateX(0vh) translateY(10vh);
     transition: all 1.5s ease-out;
+  }
+  .margin-form2 {
+   transform: translateX(8vh) translateY(0vh);
+   transition: all 1.5s ease-out;
   }
   .mockupmove1 {
     transform: translateX(10vh) translateY(8vh);
