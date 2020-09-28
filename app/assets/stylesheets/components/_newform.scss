@@ -164,7 +164,7 @@
   transition: all 2.0s ease-out;
 }
 
-@media (min-width: 100px) and (max-width: 400px) {
+@media (min-width: 100px) and (max-width: 425px) {
   .blueform {
     height: 30vh;
     margin-bottom: 24vh;
@@ -233,5 +233,37 @@
   .mockupmove1 {
     transform: translateX(10vh) translateY(8vh);
     transition: all 1.5s ease-out;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 899px) {
+  .blueform {
+    .greyform {
+      height: 85%;
+    }
+  }
+  .yellowform {
+    margin-bottom: 32vh;
+    .greyform {
+      height: 85%;
+    }
+  }
+  .redform {
+    margin-bottom: 24vh;
+    .greyform {
+      height: 90%;
+    }
+  }
+  .brownform {
+    margin-bottom: 24vh;
+    .greyform {
+      height: 85%;
+      h1 {
+        font-size: 3.0em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.5em;}
+    }
   }
 }
