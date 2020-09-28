@@ -13,14 +13,6 @@
   color: $blue-cadet;
   font-weight: bold;
   border-radius: 6px;
-  position: relative;
-  .profil {
-    position: absolute;
-    z-index: 10;
-    bottom: 0px; left: 70%;
-    overflow: hidden;
-    width: 260px;
-  }
 }
 
 .form-control {
@@ -42,9 +34,6 @@
     width: 90%;
     padding: 32px;
     height: 80vh;
-    .profil {
-      display: none;
-    }
   }
   .form-control {
     background-color: rgba(255,255,255,1.0);
@@ -70,13 +59,6 @@
     width: 95%;
     padding: 32px;
     height: 132vh;
-    .profil {
-      position: absolute;
-      z-index: 10;
-      bottom: 0px; left: 65%;
-      overflow: hidden;
-      width: 200px;
-    }
   }
 }
 // Medium device
@@ -85,13 +67,6 @@
     width: 95%;
     padding: 32px;
     height: 115vh;
-    .profil {
-      position: absolute;
-      z-index: 10;
-      bottom: 0px; left: 65%;
-      overflow: hidden;
-      width: 200px;
-    }
   }
 }
 
@@ -100,14 +75,6 @@
   .form-container {
     width: 95%;
     padding: 32px;
-    height: 142vh;
-    .profil {
-      position: absolute;
-      z-index: 10;
-      bottom: 0px; left: 70%;
-      overflow: hidden;
-      width: 200px;
-    }
   }
 }
 // IPHONE X
@@ -116,13 +83,6 @@
     width: 95%;
     padding: 32px;
     height: 120vh;
-    .profil {
-      position: absolute;
-      z-index: 10;
-      bottom: 0px; left: 70%;
-      overflow: hidden;
-      width: 200px;
-    }
   }
 }
 // Large devices (desktops, 992px and up)
