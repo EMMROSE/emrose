@@ -15,7 +15,7 @@
     transition: all 2.0s ease-out;
     left: -4vh;
     width: 33%;
-    height: 50%;
+    height: 66%;
     padding: 16px;
     background-color: $blue-cadet;
     border-radius: 8px;
@@ -30,11 +30,11 @@
 
 .margin-form1 {
   transform: translateX(-15vh) translateY(10vh);
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 .margin-form2 {
   transform: translateX(20vh) translateY(22vh);
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 
 
@@ -53,7 +53,7 @@
     right: 5vh;
     transition: all 2.0s ease-out;
     width: 33%;
-    height: 50%;
+    height: 66%;
     padding: 16px;
     background-color: $blue-cadet;
     border-radius: 8px;
@@ -83,7 +83,7 @@
     transition: all 2.0s ease-out;
     left: -4vh;
     width: 33%;
-    height: 50%;
+    height: 66%;
     padding: 16px;
     background-color: $blue-cadet;
     border-radius: 8px;
@@ -113,7 +113,7 @@
     right: 5vh;
     transition: all 2.0s ease-out;
     width: 33%;
-    height: 60%;
+    height: 66%;
     padding: 16px;
     background-color: $blue-cadet;
     border-radius: 8px;
@@ -137,7 +137,7 @@
     height: 100%;
     border-radius: 8px;
   }
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 .mockup2 {
   width: 90%;
@@ -151,38 +151,83 @@
     height: 100%;
     border-radius: 8px;
   }
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 
 .mockupmove1 {
   transform: translateX(30vh) translateY(8vh);
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 
 .mockupmove2 {
   transform: translateX(-10vh) translateY(-10vh);
-  transition: all 1.5s ease-out;
+  transition: all 2.0s ease-out;
 }
 
 @media (min-width: 100px) and (max-width: 400px) {
   .blueform {
-    height: 25vh;
+    height: 30vh;
+    margin-bottom: 24vh;
+    .greyform {
+      width: 50%;
+      height: 90%;
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.2em;}
+    }
   }
   .yellowform {
-    height: 25vh;
+    height: 30vh;
+    margin-bottom: 24vh;
+    .greyform {
+      width: 50%;
+      height: 90%;
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.2em;}
+    }
   }
   .redform {
-    height: 25vh;
+    height: 30vh;
+    margin-bottom: 24vh;
+    .greyform {
+      width: 50%;
+      height: 90%;
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.2em;}
+    }
   }
   .brownform {
-    height: 25vh;
+    height: 30vh;
+    margin-bottom: 24vh;
+    .greyform {
+      width: 55%;
+      height: 110%;
+      h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.2em;}
+    }
   }
+
   .margin-form1 {
     transform: translateX(0vh) translateY(10vh);
     transition: all 1.5s ease-out;
   }
   .margin-form2 {
-   transform: translateX(8vh) translateY(0vh);
+   transform: translateX(8vh) translateY(2vh);
    transition: all 1.5s ease-out;
   }
   .mockupmove1 {
