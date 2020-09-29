@@ -17,7 +17,7 @@ const scrolledFx = () => {
     const mockup = document.querySelector('#js-scroll-mockup');
     if (mockup) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 250) {
+        if (window.scrollY >= 270) {
           mockup.classList.add('mockupmove1');
         } else {
           mockup.classList.remove('mockupmove1');
@@ -79,7 +79,7 @@ const scrolledFx = () => {
     const formbis = document.querySelector('#js-scroll-bis');
     if (formbis) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 550) {
+        if (window.scrollY >= 650) {
           formbis.classList.add('margin-form2');
         } else {
           formbis.classList.remove('margin-form2');
@@ -89,7 +89,7 @@ const scrolledFx = () => {
     const mockupbis = document.querySelector('#js-scroll-mockupbis');
     if (mockupbis) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 550) {
+        if (window.scrollY >= 650) {
           mockupbis.classList.add('mockupmove2');
         } else {
           mockupbis.classList.remove('mockupmove2');
@@ -143,7 +143,7 @@ const scrolledFx = () => {
     const formter = document.querySelector('#js-scroll-ter');
     if (formter) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 800) {
+        if (window.scrollY >= 900) {
           formter.classList.add('margin-form1');
         } else {
           formter.classList.remove('margin-form1');
@@ -153,7 +153,7 @@ const scrolledFx = () => {
     const mockupter = document.querySelector('#js-scroll-mockupter');
     if (mockupter) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 800) {
+        if (window.scrollY >= 900) {
           mockupter.classList.add('mockupmove1');
         } else {
           mockupter.classList.remove('mockupmove1');
@@ -207,7 +207,7 @@ const scrolledFx = () => {
     const formfour = document.querySelector('#js-scroll-four');
     if (formfour) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 1100) {
+        if (window.scrollY >= 1200) {
           formfour.classList.add('margin-form2');
         } else {
           formfour.classList.remove('margin-form2');
@@ -217,7 +217,7 @@ const scrolledFx = () => {
     const mockupbis = document.querySelector('#js-scroll-mockupfour');
     if (mockupbis) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 1100) {
+        if (window.scrollY >= 1200) {
           mockupbis.classList.add('mockupmove2');
         } else {
           mockupbis.classList.remove('mockupmove2');
