@@ -167,10 +167,10 @@
 @media (min-width: 100px) and (max-width: 425px) {
   .blueform {
     height: 30vh;
-    margin-bottom: 24vh;
+    margin-bottom: 28vh;
     .greyform {
       width: 50%;
-      height: 90%;
+      height: 110%;
       h1 {
         font-size: 2.5em;
         font-weight: bold;
@@ -183,8 +183,8 @@
     height: 30vh;
     margin-bottom: 24vh;
     .greyform {
-      width: 50%;
-      height: 90%;
+      width: 55%;
+      height: 100%;
       h1 {
         font-size: 2.5em;
         font-weight: bold;
@@ -195,10 +195,10 @@
   }
   .redform {
     height: 30vh;
-    margin-bottom: 24vh;
+    margin-bottom: 30vh;
     .greyform {
       width: 50%;
-      height: 105%;
+      height: 115%;
       h1 {
         font-size: 2.5em;
         font-weight: bold;
@@ -211,8 +211,8 @@
     height: 30vh;
     margin-bottom: 24vh;
     .greyform {
-      width: 55%;
-      height: 115%;
+      width: 65%;
+      height: 130%;
       h1 {
         font-size: 2.5em;
         font-weight: bold;
@@ -241,13 +241,20 @@
     margin-bottom: 32vh;
     .greyform {
       height: 105%;
+      width: 40%;
     }
   }
   .yellowform {
-    margin-bottom: 36vh;
+    margin-bottom: 42vh;
     .greyform {
       width: 36%;
-      height: 90%;
+      height: 100%;
+      h1 {
+        font-size: 3.0em;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      h2 { font-size: 1.5em;}
     }
   }
   .redform {

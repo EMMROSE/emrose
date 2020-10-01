@@ -21,16 +21,17 @@
 // Smallest device
 @media (min-width: 100px) and (max-width: 425px) {
   .btn {
-    margin-left: 30%;
     padding: 6px 10px;
     font-size: 1.2rem;
+    margin-top: 12px;
   }
 }
 
 // Medium device
 @media (min-width: 426px) and (max-width: 900px) {
   .btn {
-    margin-left: 55%;
     padding: 6px 10px;
+    font-size: 1.5rem;
+    margin-top: 12px;
   }
 }
