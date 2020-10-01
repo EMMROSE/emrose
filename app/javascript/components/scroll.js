@@ -79,7 +79,7 @@ const scrolledFx = () => {
     const formbis = document.querySelector('#js-scroll-bis');
     if (formbis) {
       window.addEventListener('scroll', () => {
-        if (window.scrollY >= 650) {
+        if (window.scrollY >= 500) {
           formbis.classList.add('margin-form2');
         } else {
           formbis.classList.remove('margin-form2');

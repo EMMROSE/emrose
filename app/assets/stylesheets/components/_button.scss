@@ -1,44 +1,36 @@
 .btn {
   padding: 8px 12px 10px 12px;
-  background: red;
+  background: transparent;
   color: white;
-  font-size: 24px;
+  font-size: 2rem;
+  border: solid 2px white;
   border-radius: 6px;
   margin-top: 24px;
-  margin-left: 62%;
+  text-align: center;
+  // margin-left: 62%;
   a {
     text-decoration: none;
-    &:hover {border-radius: solid 2px white;}
+    text-align: center;
+    &:hover {
+      border-radius: solid 2px white;
+      color:  $brick;
+    }
   }
 }
 
 // Smallest device
-@media (min-width: 100px) and (max-width: 375px) {
+@media (min-width: 100px) and (max-width: 425px) {
   .btn {
     margin-left: 30%;
     padding: 6px 10px;
+    font-size: 1.2rem;
   }
 }
 
-// IPHONE 5 HORIZONTAL
-@media (width: 568px) {
-  .btn {
-    margin-left: 51%;
-    padding: 6px 10px;
-  }
-}
 // Medium device
-@media (min-width: 569px) and (max-width: 811px) {
+@media (min-width: 426px) and (max-width: 900px) {
   .btn {
     margin-left: 55%;
-    padding: 6px 10px;
-  }
-}
-
-// IPHONE X
-@media (width: 812px) {
-  .btn {
-    margin-left: 57%;
     padding: 6px 10px;
   }
 }
