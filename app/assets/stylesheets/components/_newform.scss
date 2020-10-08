@@ -17,7 +17,9 @@
     width: 33%;
     height: 66%;
     padding: 16px;
-    background-color: $blue-cadet;
+    background: #3359BD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #77A9F8, #3359BD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #77A9F8, #3359BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
     h1 {
@@ -55,7 +57,9 @@
     width: 33%;
     height: 66%;
     padding: 16px;
-    background-color: $blue-cadet;
+    background: #3359BD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #77A9F8, #3359BD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #77A9F8, #3359BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
     h1 {
@@ -85,7 +89,9 @@
     width: 33%;
     height: 66%;
     padding: 16px;
-    background-color: $blue-cadet;
+    background: #3359BD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #77A9F8, #3359BD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #77A9F8, #3359BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
     h1 {
@@ -115,7 +121,9 @@
     width: 33%;
     height: 66%;
     padding: 16px;
-    background-color: $blue-cadet;
+    background: #3359BD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #77A9F8, #3359BD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #77A9F8, #3359BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 8px;
     box-shadow: 8px 8px 5px rgba(55, 53, 47, 0.5);
     h1 {
